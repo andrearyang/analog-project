@@ -1,0 +1,57 @@
+REMARK  Name = TELENZEPINE HYDROCHLORIDE
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_8  and  C_10
+REMARK    3  A    between atoms: C_10  and  N_11
+REMARK    4  A    between atoms: N_14  and  C_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -3.470  -2.464  -2.026  0.00  0.00    +0.039 C 
+ATOM      2  C   UNL     1      -3.267  -1.035  -2.413  0.00  0.00    +0.022 A 
+ATOM      3  S   UNL     1      -4.132  -0.236  -3.611  0.00  0.00    -0.089 S 
+ATOM      4  C   UNL     1      -3.352   1.247  -3.451  0.00  0.00    +0.041 A 
+ATOM      5  C   UNL     1      -2.393   1.139  -2.445  0.00  0.00    +0.076 A 
+ATOM      6  C   UNL     1      -2.329  -0.147  -1.888  0.00  0.00    +0.065 A 
+ATOM      7  N   UNL     1      -1.396  -0.496  -0.862  0.00  0.00    -0.235 N 
+ATOM      8  C   UNL     1      -0.363  -1.479  -1.109  0.00  0.00    +0.250 C 
+ATOM      9  O   UNL     1      -0.351  -2.115  -2.198  0.00  0.00    -0.273 OA
+ATOM     10  C   UNL     1      -1.474   0.241   0.362  0.00  0.00    +0.073 A 
+ATOM     11  C   UNL     1      -1.823  -0.424   1.548  0.00  0.00    +0.017 A 
+ATOM     12  C   UNL     1      -1.855   0.266   2.761  0.00  0.00    +0.001 A 
+ATOM     13  C   UNL     1      -1.547   1.626   2.797  0.00  0.00    +0.001 A 
+ATOM     14  C   UNL     1      -1.222   2.302   1.618  0.00  0.00    +0.018 A 
+ATOM     15  C   UNL     1      -1.209   1.626   0.387  0.00  0.00    +0.088 A 
+ATOM     16  N   UNL     1      -0.841   2.353  -0.799  0.00  0.00    -0.174 N 
+ATOM     17  C   UNL     1      -1.493   2.254  -2.079  0.00  0.00    +0.271 C 
+ATOM     18  O   UNL     1      -1.294   3.167  -2.925  0.00  0.00    -0.268 OA
+ATOM     19  H   UNL     1      -0.077   2.971  -0.730  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   8  20
+ATOM     20  C   UNL     1       0.761  -1.728  -0.134  0.00  0.00    +0.159 C 
+BRANCH  20  21
+ATOM     21  N   UNL     1       2.059  -1.290  -0.696  0.00  0.00    -0.263 NA
+ATOM     22  C   UNL     1       3.199  -1.822   0.079  0.00  0.00    +0.090 C 
+ATOM     23  C   UNL     1       3.319  -1.174   1.479  0.00  0.00    +0.090 C 
+ATOM     24  N   UNL     1       2.554   0.086   1.576  0.00  0.00    -0.269 NA
+ATOM     25  C   UNL     1       2.941   0.837   2.778  0.00  0.00    +0.090 C 
+ATOM     26  C   UNL     1       2.747   0.903   0.369  0.00  0.00    +0.090 C 
+ATOM     27  C   UNL     1       2.167   0.180  -0.866  0.00  0.00    +0.090 C 
+ENDBRANCH  20  21
+ENDBRANCH   8  20
+TORSDOF 2
+REMARK  Name = TELENZEPINE HYDROCHLORIDE
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_8  and  C_10
+REMARK    3  A    between atoms: C_10  and  N_11
+REMARK    4  A    between atoms: N_14  and  C_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1 CL   UNL     1       0.688   0.000   0.000  0.00  0.00    +0.000 Cl
+ATOM      2  H   UNL     1       1.916   0.000   0.000  0.00  0.00    +0.000 HD
+ENDROOT
+TORSDOF 0

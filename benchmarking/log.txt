@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/Users/andreayang/myenv/bin/mk_prepare_ligand.py", line 14, in <module>
+    from meeko import MoleculePreparation
+  File "/Users/andreayang/myenv/lib/python3.12/site-packages/meeko/__init__.py", line 32, in <module>
+    from .rdkit_mol_create import RDKitMolCreate
+  File "/Users/andreayang/myenv/lib/python3.12/site-packages/meeko/rdkit_mol_create.py", line 11, in <module>
+    from rdkit.six import StringIO
+ModuleNotFoundError: No module named 'rdkit.six'
+Traceback (most recent call last):
+  File "/Users/andreayang/myenv/bin/mk_prepare_ligand.py", line 14, in <module>
+    from meeko import MoleculePreparation
+  File "/Users/andreayang/myenv/lib/python3.12/site-packages/meeko/__init__.py", line 32, in <module>
+    from .rdkit_mol_create import RDKitMolCreate
+  File "/Users/andreayang/myenv/lib/python3.12/site-packages/meeko/rdkit_mol_create.py", line 11, in <module>
+    from rdkit.six import StringIO
+ModuleNotFoundError: No module named 'rdkit.six'
